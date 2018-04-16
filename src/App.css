@@ -1,0 +1,161 @@
+body {
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: linear-gradient(hsla(0, 5%, 55%, 0.7),hsla(183, 15%, 29%, 0.8));
+  -webkit-transition: background all 1s ease-in-out;
+  transition: background 3000;
+}
+
+.Clock {
+  display:flex;
+  flex-flow: row wrap;
+  height:300px;
+  width:550px;
+  /* border:2px solid black; */
+  justify-content:  center;
+  align-content: flex-start;
+  background: linear-gradient(hsla(0, 0%, 3%, 0.7),hsla(0, 0%, 24%, 0.8));
+  color: #adfeff;
+  box-shadow: 2px 2px 18px hsla(171, 37%, 37%, 0.8);
+  border-radius:5%;
+  text-shadow: 5px 5px 100px hsla(0, 0%, 33%, 0.94);
+  font-family: 'Sunflower', sans-serif;
+  transition:.3s;
+
+  /* #c58181 */
+}
+
+.App > * {
+  margin:4%;
+}
+
+.break {
+  display:flex;
+  flex-flow: row wrap;
+  /* border:2px solid green; */
+  height: 20%;
+  flex:1;
+  margin-right: 30%;
+}
+
+.session {
+  display:flex;
+  flex-flow: row wrap;
+  /* border:2px solid orange; */
+  height: 20%;
+  flex:1;
+  margin-left: 30%;
+}
+
+#break-label {
+  /* border:2px solid yellow; */
+  height:20%;
+  flex:1 100%;
+  text-align: center;
+}
+
+#session-label {
+  /* border:2px solid yellow; */
+  height:20%;
+  flex:1 100%;
+  text-align: center;
+}
+
+#break-decrement {
+/* border:2px solid blue; */
+height:20%;
+flex:1 30%;
+text-align: center;
+cursor: pointer;
+
+}
+
+#session-decrement {
+  /* border:2px solid blue; */
+  height:20%;
+  flex:1 30%;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#break-increment {
+  /* border:2px solid black; */
+  height:20%;
+  flex:1 30%;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#session-increment {
+  /* border:2px solid black; */
+  height:20%;
+  flex:1 30%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#break-length {
+  /* border:2px solid green; */
+  height:20%;
+  flex:1 30%;
+  text-align: center;
+}
+
+#session-length {
+  /* border:2px solid green; */
+  height:20%;
+  flex:1 30%;
+  text-align: center;
+}
+
+.timer {
+  display:flex;
+  flex-flow: row wrap;
+  height:77%;
+  flex:1 100%;
+  /* border:2px solid red; */
+  /* font-size: 48px; */
+}
+
+#timer-label {
+  /* border:2px solid yellow; */
+  height:15%;
+  flex:1 100%;
+  text-align: center;
+  padding:5px;
+  font-size: 25px;
+}
+
+#time-left {
+  /* border:2px solid green; */
+  height:60%;
+  flex:1 100%;
+  text-align: center;
+  padding:5px;
+  font-size: 110px;
+}
+
+#start_stop {
+/* border:2px solid blue; */
+height:10%;
+flex:1;
+text-align: center;
+padding:5px;
+margin-left:30%;
+cursor: pointer;
+}
+
+#reset {
+/* border:2px solid black; */
+height:10%;
+flex:1;
+text-align: center;
+padding:5px;
+margin-right: 30%;
+cursor: pointer;
+}
