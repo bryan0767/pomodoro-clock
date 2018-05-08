@@ -152,18 +152,18 @@ color = () => {
 
 
   if (this.state.lengthMin === 0) {
-    clock.style.color = '#c58181'
-    clock.style.boxShadow = '#c75f5f 2px 2px 18px'
+    clock.style.color = 'white';
+    // clock.style.boxShadow = '#c75f5f 2px 2px 18px'
     document.body.style.background = 'linear-gradient(hsla(0, 5%, 55%, 0.7),#c58181)';
   } else if(label.innerHTML === 'Break' &&
             this.state.lengthMin > 0) {
-    clock.style.color = '#ffe69a'
-       clock.style.boxShadow = '2px 2px 18px #ffe69a'
+    clock.style.color = 'white'
+       // clock.style.boxShadow = '2px 2px 18px #ffe69a'
        document.body.style.background = 'linear-gradient(hsla(0, 5%, 55%, 0.7),#ffe69a)';
   } else if (label.innerHTML === 'Session' &&
           this.state.lengthMin > 0) {
-    clock.style.color = '#adfeff'
-    clock.style.boxShadow = '2px 2px 18px hsla(171, 37%, 37%, 0.8)'
+    clock.style.color = 'white'
+    // clock.style.boxShadow = '2px 2px 18px hsla(171, 37%, 37%, 0.8)'
     document.body.style.background = 'linear-gradient(hsla(0, 5%, 55%, 0.7),hsla(183, 15%, 29%, 0.8))';
   }
 }
