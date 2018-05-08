@@ -17,11 +17,11 @@ body {
   /* border:2px solid black; */
   justify-content:  center;
   align-content: flex-start;
-  background: linear-gradient(hsla(0, 0%, 3%, 0.7),hsla(0, 0%, 24%, 0.8));
-  color: #adfeff;
-  box-shadow: 2px 2px 18px hsla(171, 37%, 37%, 0.8);
+  /* background: linear-gradient(hsla(0, 0%, 3%, 0.7),hsla(0, 0%, 24%, 0.8)); */
+  color: white;
+  /* box-shadow: 2px 2px 18px hsla(171, 37%, 37%, 0.8); */
   border-radius:5%;
-  text-shadow: 5px 5px 100px hsla(0, 0%, 33%, 0.94);
+  /* text-shadow: 5px 5px 100px hsla(0, 0%, 33%, 0.94); */
   font-family: 'Sunflower', sans-serif;
   transition:.3s;
 
