@@ -1,3 +1,3 @@
 Pomodoro Clock made with React and CSS
 
-![clock](https://user-images.githubusercontent.com/33098684/38827180-b4887bc2-4177-11e8-848c-90f6c1028855.png)
+![clock](https://user-images.githubusercontent.com/33098684/39763988-2b6d0c20-52a4-11e8-8cda-7e7730048269.png)
